@@ -5,11 +5,10 @@
 def reverse_a_string(string)
     index = string.length - 1
     reverse = ""
-      while letter_index >= o do
+      while index >= 0 do
         reverse << string[index]
         index -= 1
       end
-    end
     return reverse 
 end
 
